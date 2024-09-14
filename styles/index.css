@@ -5,13 +5,22 @@
 }
 
 body {
-  font-family: "Arial", sans-serif;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #f0f8ff;
+}
+@media (min-width: 48rem) {
+  body {
+    font-family: "Arial", sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0f8ff;
+  }
 }
 
 header {

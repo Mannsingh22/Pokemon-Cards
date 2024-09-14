@@ -1,3 +1,5 @@
+@use './mixins' as *;
+
 * {
     padding: 0;
     margin: 0;
@@ -5,13 +7,21 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #f0f8ff;
+
+    @include tablet {
+        font-family: 'Arial', sans-serif;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #f0f8ff;
+    }
 }
 
 header {
@@ -42,8 +52,8 @@ img {
 }
 
 .pokemon-card {
-    width: calc(25% - .625rem);
-    height: calc(33.33% - .625rem);
+    width: calc(25% - 0.625rem);
+    height: calc(33.33% - 0.625rem);
     margin: 0.3125rem;
     position: relative;
     transform-style: preserve-3d;
