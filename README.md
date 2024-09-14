@@ -2,6 +2,7 @@
 
 ## Project Overview
 This is a card-matching game built using the Pokémon API, created during a hackathon organized by BrainStation. The game allows users to flip cards and match Pokémon images. If the cards match, the images are revealed, and the player continues until all pairs are matched.
+Check it out here - https://mannsingh22.github.io/Pokemon-Cards/
 
 ## Key Features
 - **Card Matching Game**: Flip cards and match Pokémon pairs.
