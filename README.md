@@ -26,3 +26,12 @@ This is a card-matching game built using the Pokémon API, created during a hack
 1. Clone the repository:
    ```bash
    git clone https://github.com/Mannsingh22/poke.git
+
+### Steps to add this Markdown README to GitHub:
+
+1. Create a `README.md` file in your repository root directory if it’s not there already.
+2. Copy and paste the Markdown content from above directly into the `README.md` file.
+3. Commit and push the changes to your repository.
+4. GitHub automatically renders the Markdown file and applies the correct formatting.
+
+Now, your README should look exactly like the well-formatted version on GitHub. Let me know if you need more help!
